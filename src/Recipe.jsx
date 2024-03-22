@@ -4,7 +4,6 @@ export default function Recipe({title, calories, image, ingredients, recipeUrl})
 
  const roundedCalories = Math.round(calories);
 
-
   return (
     <div className='col-lg-6 mb-5'>
         <div className="recipe-item">
